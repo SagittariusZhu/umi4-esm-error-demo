@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "author": "Edward.Zhu <zhuhy@jnsec.net>",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "postinstall": "max setup",
+    "setup": "max setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@umijs/max": "^4.0.0",
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
